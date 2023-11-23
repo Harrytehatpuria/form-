@@ -1,0 +1,91 @@
+<html>
+<head>
+<style>
+ /* Style the overall form container */
+.feedback-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+/* Style each frame */
+.frame {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Style the header of each frame */
+.frame-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Style the content of each frame */
+.frame-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+</style>
+/* Add additional styles as needed */
+
+ <title>Student Feedback Form </title>
+</head>
+<body>
+ <div class="image-with-text">
+
+
+ <img src="https://www.onlineresultportal.com/wp-content/uploads/2020/04/chandigarh-university.jpg" alt="Image"
+width="auto" height="auto">
+<p>Chandigarh University is a full-fledged university established by the Punjab State Legislature and is recognized by
+University Grants Commission under Section 2(f) with the right to confer degrees as per Section 22(1) of the UGC Act,
+1956.</p>
+ </div>
+ <h1>Feedback-Form</h1>
+ <form class="feedback-form">
+ <!-- Frame 1: Course -->
+ <div class="frame">
+ <div class="frame-header">Course Feedback</div>
+ <div class="frame-content">
+ <label for="course-quality">Quality of Course:</label>
+ <input type="radio" name="course-quality" value="good"> Good
+ <input type="radio" name="course-quality" value="average"> Average
+ <input type="radio" name="course-quality" value="Excellent"> Excellent
+ </div>
+ </div>
+ <!-- Frame 2: Teachers -->
+ <div class="frame">
+ <div class="frame-header">Teacher Feedback</div>
+ <div class="frame-content">
+ <label for="teacher-knowledge">Teacher's Knowledge:</label>
+ <input type="radio" name="teacher-knowledge" value="excellent"> Excellent
+ <input type="radio" name="teacher-knowledge" value="satisfactory"> Satisfactory
+ <input type="radio" name="teacher-knowledge" value="average"> Average
+ </div>
+ </div>
+<!-- Frame 3: Mess Food -->
+ <div class="frame">
+ <div class="frame-header">Mess Food Feedback</div>
+ <div class="frame-content">
+ <label for="food-taste">Food Taste:</label>
+ <input type="radio" name="food-taste" value="delicious"> Delicious
+ <input type="radio" name="food-taste" value="okay"> Okay
+ <input type="radio" name="food-taste" value="average"> Average
+ </div>
+ </div>
+ <!-- Frame 4: Hostel Environment -->
+ <div class="frame">
+ <div class="frame-header">Hostel Environment Feedback</div>
+ <div class="frame-content">
+ <label for="room-cleanliness">Room Cleanliness:</label>
+ <input type="radio" name="room-cleanliness" value="clean"> Clean
+ <input type="radio" name="room-cleanliness" value="not-clean"> Not Clean
+ </div>
+ </div>
+ <input type="submit" value="Submit Feedback">
+ <input type="reset" value="Refresh">
+
+
+ </form>
+</body>
+</html>
